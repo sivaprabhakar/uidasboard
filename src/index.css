@@ -1,0 +1,214 @@
+#root{
+  overflow-x: hidden;
+ margin: 0;
+ padding: 0;
+  height:100vh;
+}
+.fa-clipboard::before{
+  content: url(/icons/clipboard-tick.svg)!important;
+  padding:0px 30px;
+  position: relative;
+  top:25px;
+}
+
+.fa-tachometer-alt::before{
+content: url(/icons/element-3.svg)!important;
+padding:0px 30px;
+position: relative;
+  top:25px;
+}
+.fa-wrench::before{
+  content: url(/icons/calendar-tick.svg)!important;
+  padding:0px 30px;
+  position: relative;
+  top:25px;
+}
+.fa-folder::before{
+  content:url(/icons/bag-tick-2.svg)!important;
+  padding:0px 30px;
+  position: relative;
+  top:25px;
+}
+.fa-chart-area::before{
+  content:url(/icons/sms.svg)!important;
+  padding:0px 30px;
+  position: relative;
+  top:25px;
+}
+.fa-table::before{
+  content:url(/icons/empty-wallet.svg)!important;
+  padding:0px 30px;
+  position: relative;
+  top:25px;
+}
+.fa-wallet::before{
+  content:url(/icons/setting-2.svg)!important;
+  padding:0px 30px;
+  position: relative;
+  top:25px;
+}
+.fa-question::before{
+content:url(/icons/Question.svg)!important;
+padding:0px 30px;
+position: relative;
+top:563px;
+
+}
+.fa-search::before{
+content: url(/icons/search-normal.svg)!important;
+position:relative;
+left:-550px;
+top:-18px;
+}
+.help{
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+  top:430px;
+  left:20px;
+}
+span{
+  position: relative;
+  top:20px;
+  
+padding:90px 50px;
+color: #000;
+font-family: 'Poppins', sans-serif;
+font-size: 16px !important;
+font-style: normal;
+font-weight: 400 !important;
+line-height: 50px;
+letter-spacing: 0.32px;
+}
+.sidebar-brand{
+  margin : 0;
+  padding:75px 10px;
+  text-decoration: none !important;
+  color: #013CC6  ;
+  font-family: 'Poppins', sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+position: relative;
+top:15px;
+
+}
+.text-bg-warning{
+  position: relative;
+  top:-970px;
+  width: 280px;
+  height: 1300px;
+  flex-shrink: 0;
+  background-color: #FFF !important;
+}
+.input-group{
+  display: flex;
+  position: relative;
+  left:355px;
+  border-radius: 3px;
+border: 1px solid rgba(0, 0, 0, 0.20);
+
+width: 655px;
+height: 52px;
+flex-shrink: 0;
+top:70px;
+}
+.form-control{
+  position:relative;
+  left:50px;
+  top:15px;
+  border:none;
+
+  background-color:transparent  !important;
+  
+} 
+.fa-bell{
+  content:url(/icons/Notification.svg) !important;
+  position:relative;
+  right:-450px;
+  top:-5px;
+  }
+h4{
+  position: relative;
+  left:355px;
+  top:152px;
+  color: #000;
+  font-family: 'Poppins', sans-serif;   
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  }
+
+.g-col-3{
+  display: flex;
+  width:250px;
+height: 50px;
+padding: 13px 66px 13px 24px;
+align-items: center;
+flex-shrink: 0;
+  border-radius: 3px;
+border: 1px solid rgba(19, 19, 19, 0.25);
+background: #FFF;
+position: relative;
+top:235px;
+left:-763px;
+color: rgba(19, 19, 19, 0.60);
+font-family: 'Poppins', sans-serif;   
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+.grid{
+  display: flex;
+gap: 30px;
+}
+.g-col-4{
+  display: flex;
+  width:250px;
+height: 50px;
+padding: 13px 66px 13px 24px;
+align-items: center;
+flex-shrink: 0;
+  
+position: relative;
+top:170px;
+left:333px;
+color: #000;
+font-family: 'Poppins', sans-serif;   
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.table{
+  position: relative;
+  left:350px;
+  top:300px;
+  width: 1130px;
+height: 774px;
+flex-shrink: 0;
+border-radius: 3px;
+background: #FFF;
+border-collapse: collapse;
+}
+
+td{
+  color: #000;
+  font-family: 'Poppins', sans-serif; 
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+input{
+  position: relative;
+  left:10px;
+  width: 18px;
+height: 20px;
+flex-shrink: 0;
+border-radius: 4px !important;
+}
+  
